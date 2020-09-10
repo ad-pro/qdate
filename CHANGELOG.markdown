@@ -1,4 +1,4 @@
-## 0.5.0 (in development)
+## 0.5.0
 
 * Add `range_X` functions for getting a list of dates/times within a range
   (such as `range_day/3` to get a range of days between a start and end date.
@@ -13,7 +13,9 @@
 * Add an optional "relative date/time parser".
 * Fix: Ensure `get_timezone()` returns the default timezone (from config) if it
   hasn't been set by `get_timezone()`
-* Remove R14 from travis testing.
+* Fix UTC/GMT bug (@loudferret)
+* Fix Erlang 21 Stacktrace changes (@tnt-dev)
+* Set a better rebar2 version of erlware commons (@tnt-dev)
 
 ## 0.4.2
 
